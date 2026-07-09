@@ -9,6 +9,8 @@ git submodule init
 git submodule sync
 git submodule update
 
+rm -rf ~/.buildroot-dl/aesd-assignments/
+
 set -e 
 cd `dirname $0`
 
